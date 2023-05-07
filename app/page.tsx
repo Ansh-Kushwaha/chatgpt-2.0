@@ -15,9 +15,9 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-2 ">
-            <p className="infoText">"Explain something to me"</p>
-            <p className="infoText">"What is the difference between a cat and a dog?"</p>
-            <p className="infoText">"What is the color of the Sun?"</p>
+            <p className="infoText">&quot;Explain something to me&quot;</p>
+            <p className="infoText">&quot;What is the difference between a cat and a dog?&quot;</p>
+            <p className="infoText">&quot;What is the color of the Sun?&quot;</p>
           </div>
         </div>
 
