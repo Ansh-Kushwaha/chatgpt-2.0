@@ -20,12 +20,12 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const session = await getServerSession(GET)
+  const session: Session | null= await getServerSession(GET)
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SessionProvider session={session | null}>
+        <SessionProvider session={session}>
           {!session ? (
             <Login />
           ): (
