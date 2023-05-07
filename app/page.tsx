@@ -10,8 +10,8 @@ export default function HomePage() {
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
             {/* Sun Icon */}
-            <SunIcon className="h-8 w-8 " />
-            <h2>Examples</h2>
+            <SunIcon className="h-8 w-8 text-white" />
+            <h2 className="text-white">Examples</h2>
           </div>
 
           <div className="space-y-2 ">
@@ -24,8 +24,8 @@ export default function HomePage() {
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
             {/* Bolt Icon */}
-            <BoltIcon className="h-8 w-8 " />
-            <h2>Capabilities</h2>
+            <BoltIcon className="h-8 w-8 text-white" />
+            <h2 className="text-white">Capabilities</h2>
           </div>
 
           <div className="space-y-2 ">
@@ -38,8 +38,8 @@ export default function HomePage() {
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
             {/* Triangle Icon */}
-            <ExclamationTriangleIcon className="h-8 w-8 " />
-            <h2>Limitations</h2>
+            <ExclamationTriangleIcon className="h-8 w-8 text-white" />
+            <h2 className="text-white">Limitations</h2>
           </div>
 
           <div className="space-y-2 ">
