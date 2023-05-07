@@ -6,14 +6,16 @@ import { icon } from '../app/assets';
 
 function Login() {
   return (
-    <div>
+    <div className=" bg-gptGreen h-screen flex flex-col items-center justify-center text-center">
         <Image 
             src={icon}
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             alt="logo"
         />
-        <button>
+        <button className="text-white px-3 py-2 font-bold text-3xl animate-pulse"
+          onClick={() => signIn('google')}
+        >
             Sign In to use ChatGPT 2.0
         </button>
     </div>

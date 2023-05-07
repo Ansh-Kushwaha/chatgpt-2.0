@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: '#343541',
         tertiary: '#202123',
+        gptGreen: '#10A37F',
       },
 
       backgroundImage: {

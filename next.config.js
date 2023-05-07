@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = {
-    images: {
-        domains: ['links.papareact.com']
+const nextConfig = {
+    experimental: {
+        appDir: true,
     },
-    
-    ...nextConfig,
 }
+  
+module.exports = nextConfig
