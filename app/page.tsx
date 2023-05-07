@@ -30,7 +30,7 @@ export default function HomePage() {
 
           <div className="space-y-2 ">
             <p className="infoText">Change the chatGPT model to use!</p>
-            <p className="infoText">Messages are stored in Firebase's Firestore</p>
+            <p className="infoText">Messages are stored in Firebase&apos;s Firestore</p>
             <p className="infoText">Hot Toast notifications when ChatGPT 2.0 is thinking</p>
           </div>
         </div>
