@@ -1,7 +1,7 @@
 import './globals.css';
 
 import { Inter } from 'next/font/google';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/SideBar';
 import Login from '@/components/Login';
 import { getServerSession, Session } from 'next-auth';
 
