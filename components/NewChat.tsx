@@ -14,11 +14,11 @@ function NewChat() {
       createdAt: serverTimestamp()
     });
 
-    router.push('/chat/${doc.id}')
+    router.push(`/chat/${doc.id}`)
   }
 
   return (
-    <div className="px-3 py-3 flex flex-row justify-start items-center gap-3 text-sm text-white rounded-md border border-white/20 hover:bg-primary transition-all duration-200 ease-out" 
+    <div className="px-3 py-3 flex flex-row justify-start items-center gap-3 text-sm max-h-fit text-white rounded-md border border-white/20 hover:bg-primary transition-all duration-200 ease-out" 
       onClick={createNewChat}>
         <PlusIcon className="h-4 w-4"/>
         <p>New chat</p>

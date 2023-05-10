@@ -31,7 +31,7 @@ export default async function RootLayout({
           ): (
           <div className="flex">
             {/* Sidebar */}
-            <div className="bg-tertiary sm:w-[260px] sm:flex hidden flex-shrink-0 overflow-x-hidden h-screen overflow-y-auto">
+            <div className="bg-tertiary sm:w-[260px] sm:flex hidden flex-shrink-0 overflow-x-hidden h-screen overflow-y-hidden">
               <Sidebar />
             </div>
             {/* ClientProvider */}

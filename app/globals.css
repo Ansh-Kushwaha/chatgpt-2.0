@@ -34,7 +34,38 @@ body {
   }
 
   .chatRow {
-    @apply rounded-lg px-3 py-3 text-sm flex items-center justify-center space-x-2 
-    hover:bg-gray-700/70 cursor-pointer text-white transition-all duration-200 ease-out
+    @apply px-3 py-3 mb-3 text-sm flex items-center justify-center rounded-md space-x-2 
+    hover:bg-primary/50 cursor-pointer text-white transition-all duration-200 ease-out
   }
+}
+
+.short_scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #ffffff00;
+
+}
+
+.short_scrollbar::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  max-height: 50px;
+  border-radius: 10px;
+}
+
+.long_scrollbar::-webkit-scrollbar-track {
+  width: 6px;
+}
+
+.long_scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #ffffff00;
+
+}
+
+.long_scrollbar::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+.long_scrollbar::-webkit-scrollbar-track {
+  width: 6px;
 }
